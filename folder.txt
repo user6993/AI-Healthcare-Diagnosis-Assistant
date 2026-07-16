@@ -1,0 +1,34 @@
+AI_Healthcare_Diagnosis_Assistant/
+│
+├── app.py                      # Streamlit main app
+├── train_model.py              # Model training
+├── predict.py                  # Prediction functions
+├── requirements.txt            # Python dependencies
+├── README.md                   # Project documentation
+├── .gitignore                  # Git ignore file
+│
+├── dataset/
+│   └── healthcare_dataset.csv
+│
+├── model/
+│   ├── disease_model.pkl
+│   ├── feature_columns.pkl
+│   └── target_encoder.pkl
+│
+├── assets/
+│   ├── logo.png                # (Optional)
+│   ├── healthcare_banner.png   # (Optional)
+│   └── screenshot.png          # (Optional)
+│
+├── screenshots/
+│   ├── home_page.png
+│   ├── prediction.png
+│   └── result.png
+│
+├── ppt/
+│   └── AI_Healthcare_Diagnosis_Assistant.pptx
+│
+├── report/
+│   └── Project_Report.pdf
+│
+└── venv/                       # Virtual environment (ZIP me include mat karna)
